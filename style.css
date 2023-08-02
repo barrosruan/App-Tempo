@@ -80,6 +80,7 @@ body {
   color: #ffffff;
   margin-left: 2px;
   font-size: 30px;
+  text-transform: capitalize;
 
 }
 
