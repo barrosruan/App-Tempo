@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-
 }
 
 body {
@@ -12,7 +11,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-image: url(./img.temp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,11 +19,12 @@ body {
 
 .caixa-maior {
   background-color: #000000;
-  width: 501px;
+  width: 500px 200px;
   opacity: 0.8;
   padding: 20px;
   border-radius: 25px;
   height: 450px;
+  box-shadow: 8px 8px 16px rgb(14, 1, 1);
 }
 
 .input-cidade {
@@ -35,7 +35,7 @@ body {
   font-size: 20px;
   background-color: #7c7c7c2b;
   color: #ffffff;
-  width: 400px;
+  width: 500px;
 }
 
 .botao-busca {
@@ -46,10 +46,11 @@ body {
   background-color: #7c7c7c2b;
   cursor: pointer;
   float: right;
+  margin-left: 10px;
 }
 
 .img-busca {
-  width: 25px;
+  width: 20px;
 }
 
 .caixa-media {
@@ -72,8 +73,6 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-
-
 }
 
 .texto-previsao {
@@ -81,12 +80,10 @@ body {
   margin-left: 2px;
   font-size: 30px;
   text-transform: capitalize;
-
 }
 
 .img-previsao {
   margin-left: 10px;
-
 }
 
 .umd {
